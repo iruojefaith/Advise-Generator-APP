@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayish-Blue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+    --Family:  'Manrope', sans-serif;
+    --Fonts-Weights: 800;
+    --Fontsize: 28px;
+}
+
+body {
+    background: var(--DarkBlue);
+    color: #fff;
+    font-family: var(--Family);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color: var(--NeonGreen);
+    font-size: var(--Fontsize);
+    text-align: center;
+    font-weight: var(--Fonts-Weights);
+    margin-bottom: 1rem;
+}
+p{
+    font-size: var(--Fontsize);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card{
+    text-align: center;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.3);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.11);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+     max-width: 550px;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.divider{
+    margin: 20px 0 30px;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.dice-content {
+    padding: 5px;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 auto -50px;
+    background: var(--NeonGreen);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+     }
