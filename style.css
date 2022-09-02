@@ -29,7 +29,7 @@ section {
 
 h3{
     color: var(--NeonGreen);
-    font-size: var(--Fontsize);
+    font-size: 18px;
     text-align: center;
     font-weight: var(--Fonts-Weights);
     margin-bottom: 1rem;
@@ -63,8 +63,8 @@ p{
 
 .dice-content {
     padding: 5px;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
